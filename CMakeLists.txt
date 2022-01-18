@@ -48,8 +48,8 @@ project(bcos-project VERSION "3.0.0")
 set(VERSION_SUFFIX "")
 
 # Boost
-hunter_add_package(Boost COMPONENTS all)
-find_package(Boost CONFIG REQUIRED log chrono system filesystem thread iostreams)
+# hunter_add_package(Boost COMPONENTS all)
+# find_package(Boost CONFIG REQUIRED log chrono system filesystem thread iostreams)
 
 # TODO: add others deps, eg(jsoncpp, OpenSSL, bcos-utilities, bcos-boostssl, bcos-framework, ...)
 
@@ -58,8 +58,12 @@ find_package(Boost CONFIG REQUIRED log chrono system filesystem thread iostreams
 # find_package(bcos-utilities CONFIG REQUIRED)
 
 # TarsCpp
-hunter_add_package(tarscpp)
-find_package(tarscpp CONFIG REQUIRED)
+# hunter_add_package(tarscpp)
+# find_package(tarscpp CONFIG REQUIRED)
+
+# wedpr-crypto
+hunter_add_package(wedpr-crypto)
+find_package(wedpr-crypto CONFIG REQUIRED)
 
 # basic settings
 include(Options)
