@@ -54,8 +54,8 @@ find_package(Boost CONFIG REQUIRED log chrono system filesystem thread iostreams
 # TODO: add others deps, eg(jsoncpp, OpenSSL, bcos-utilities, bcos-boostssl, bcos-framework, ...)
 
 # bcos-utilities
-hunter_add_package(bcos-utilities)
-find_package(bcos-utilities CONFIG REQUIRED)
+# hunter_add_package(bcos-utilities)
+# find_package(bcos-utilities CONFIG REQUIRED)
 
 # TarsCpp
 hunter_add_package(tarscpp)

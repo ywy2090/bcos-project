@@ -19,9 +19,6 @@
  */
 
 #include <bcos-project/BcosSample.h>
-#include <bcos-utilities/BoostLog.h>
-#include <bcos-utilities/BoostLogInitializer.h>
-#include <bcos-utilities/Common.h>
 #include <iostream>
 
 using namespace bcos;
