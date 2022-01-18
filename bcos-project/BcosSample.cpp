@@ -29,5 +29,6 @@ using namespace bcos::sample;
 
 void Sample::func()
 {
+    //
     std::cout << " bcos sample func call ..." << std::endl;
 }
